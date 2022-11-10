@@ -1,0 +1,78 @@
+@import "./fonts.css";
+:root {
+
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    background: inherit;
+    color: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.main__content {
+    padding: 65px 0 83px 0;
+}
+.main__title {
+    margin-bottom: 23px;
+    font-size: 47px;
+}
+.main__desc {
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+.about {
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.about__content {
+    padding: 81px 0 76px 0;
+}
+.about__title {
+    margin-bottom: 29px;
+}
+.about__desc {
+    font-size: 18px;
+    line-height: 23.83px;
+}
+.scills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 83px 0 94px 0;
+}
+.scills__title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+.scills__desc {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 70px;
+}
+.scills__card {
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
